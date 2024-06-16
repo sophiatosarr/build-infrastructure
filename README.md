@@ -2,11 +2,7 @@
 
 ### Passo a Passo
 
-1. **Criação do Repositório no GitHub:**
-   - Acesse o GitHub e crie um novo repositório.
-   - Clone o repositório em sua máquina local.
-
-2. **Instalação do Terraform CLI:**
+1. **Instalação do Terraform CLI:**
    - Abra o PowerShell como Administrador.
    - Baixe o Terraform executando o comando:
      ```shell
@@ -25,7 +21,7 @@
      terraform -v
      ```
 
-3. **Instalação do AWS CLI:**
+2. **Instalação do AWS CLI:**
    - Abra o PowerShell como Administrador.
    - Baixe o instalador do AWS CLI executando:
      ```shell
@@ -40,23 +36,23 @@
      aws --version
      ```
 
-4. **Configuração das Credenciais da AWS:**
+3. **Configuração das Credenciais da AWS:**
    - Configure suas credenciais da AWS executando o comando:
      ```shell
      aws configure
      ```
    - Forneça suas credenciais de acesso (AWS Access Key ID, AWS Secret Access Key, região padrão e formato de saída).
 
-5. **Criação do Arquivo Terraform (main.tf):**
+4. **Criação do Arquivo Terraform (main.tf):**
    - Crie um arquivo de configuração Terraform chamado `main.tf` com o conteúdo fornecido.
 
-6. **Inicialização do Terraform:**
+5. **Inicialização do Terraform:**
    - Abra o PowerShell no diretório onde está o arquivo `main.tf` e execute:
      ```shell
      terraform init
      ```
 
-7. **Planejamento da Infraestrutura:**
+6. **Planejamento da Infraestrutura:**
    - Para ver o que será criado, execute:
      ```shell
      terraform plan
@@ -67,7 +63,7 @@
 
 
 
-8. **Aplicação da Configuração:**
+7. **Aplicação da Configuração:**
    - Para criar a instância EC2, execute:
      ```shell
      terraform apply
