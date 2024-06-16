@@ -62,12 +62,23 @@
      terraform plan
      ```
 
+     ![image](https://github.com/sophiatosarr/build-infrastructure/assets/99216420/1cc4e059-929a-4fb5-a488-58eddd0c3c0d)
+     ![image](https://github.com/sophiatosarr/build-infrastructure/assets/99216420/1ce69414-9f2c-46a7-ba5d-8c080ce05ab5)
+
+
+
 8. **Aplicação da Configuração:**
    - Para criar a instância EC2, execute:
      ```shell
      terraform apply
      ```
+
+     ![image](https://github.com/sophiatosarr/build-infrastructure/assets/99216420/d8fc5e6b-d9e9-4efc-bdac-6a85e4169222)
+
    - Digite yes quando solicitado para confirmar a aplicação da configuração.
+  
+     ![image](https://github.com/sophiatosarr/build-infrastructure/assets/99216420/06c8fb57-59e2-4514-8adb-d09a78026c20)
+
 
 ### Documentação dos Recursos Provisionados
 
